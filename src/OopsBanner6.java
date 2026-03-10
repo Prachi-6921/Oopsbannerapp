@@ -16,8 +16,8 @@ public class OopsBanner6 {
 
     static class CharacterPattern {
 
-        private char character;
-        private String[] pattern;
+        private final char character;
+        private final String[] pattern;
 
         public CharacterPattern(char character, String[] pattern) {
             this.character = character;
